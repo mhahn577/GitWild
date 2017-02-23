@@ -1,0 +1,29 @@
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="BootstrapApp">
+<head>
+    <title>BootstrapApp</title>
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet" />
+    <base href="C:\Users\Tahoe\Documents\Structured - Full Stack JavaScript\Unit 3\AngularJS Design - Bootstrap UI Modal Dialogs\" />
+</head>
+<body ng-controller="HomeController as controller">
+    <div class="container">
+        <h1>Pick your favorite animal:</h1>
+        <button class="btn" ng-click="controller.showModal('Bears')">Bears</button>
+        <button class="btn" ng-click="controller.showModal('Chickens')">Chickens</button>
+        <button class="btn" ng-click="controller.showModal('Fish')">Fish</button>
+    </div>
+
+    <!-- Library Files -->
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-touch/angular-touch.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+
+    <!-- App Files-->
+    <script src="ngApp/app.js"></script>
+    <script src="ngApp/controllers/controllers.js"></script>
+    <script src="ngApp/services/services.js"></script>
+</body>
+</html>
